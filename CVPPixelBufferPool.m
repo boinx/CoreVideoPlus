@@ -106,4 +106,9 @@ CV_EXPORT const CFStringRef kCVPixelBufferMetalCompatibilityKey __OSX_AVAILABLE_
 	return bufferObject;
 }
 
+- (void)flush
+{
+	CVPixelBufferPoolFlush(bufferPool, 0);
+}
+
 @end

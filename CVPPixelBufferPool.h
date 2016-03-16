@@ -13,4 +13,6 @@
 
 - (CVPPixelBuffer *)bufferWithError:(NSError **)error;
 
+- (void)flush;
+
 @end
