@@ -25,10 +25,21 @@
 
 - (instancetype)initWithContext:(CGLContextObj)context error:(NSError **)error
 {
+	return [self initWithContext:context attributes:nil error:error];
+}
+
+- (instancetype)initWithContext:(CGLContextObj)context attributes:(NSDictionary *)inAttributes error:(NSError **)error
+{
 	self = [super init];
 	if(self != nil)
 	{
-		CVReturn err = CVOpenGLTextureCacheCreate(kCFAllocatorDefault, NULL, context, CGLGetPixelFormat(context), NULL, &textureCache);
+		CFDictionaryRef attributes = NULL;
+		if (inAttributes)
+		{
+			attributes = (__bridge CFDictionaryRef)inAttributes;
+		}
+		
+		CVReturn err = CVOpenGLTextureCacheCreate(kCFAllocatorDefault, attributes, context, CGLGetPixelFormat(context), NULL, &textureCache);
 		if(err != kCVReturnSuccess)
 		{
 			if(error != nil)
