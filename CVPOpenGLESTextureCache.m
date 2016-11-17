@@ -1,6 +1,7 @@
 #import "CVPOpenGLESTextureCache.h"
 
 #import <CoreVideo/CoreVideo.h>
+#import <OpenGLES/ES2/glext.h>
 
 #import "NSError+CVPError.h"
 #import "GLPPixelformat+CVPPixelformat.h"

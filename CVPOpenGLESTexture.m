@@ -1,5 +1,5 @@
 #import "CVPOpenGLESTexture.h"
-
+#import <OpenGLES/ES2/glext.h>
 
 @interface CVPOpenGLESTexture ()
 {
