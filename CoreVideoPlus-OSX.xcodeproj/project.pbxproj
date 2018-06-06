@@ -12,7 +12,6 @@
 		5031B5081A1092770004E7F6 /* CVPOpenGLBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5031B5071A1092770004E7F6 /* CVPOpenGLBuffer.m */; };
 		50B0E2E51B70073900371BB7 /* CVPPixelBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0E2E41B70073900371BB7 /* CVPPixelBuffer.m */; };
 		50B0E2E81B70074600371BB7 /* CVPPixelBufferPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0E2E71B70074600371BB7 /* CVPPixelBufferPool.m */; };
-		50BC8121186C44E600F0CD4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC8120186C44E600F0CD4D /* Foundation.framework */; };
 		50BC8126186C44E600F0CD4D /* CoreVideoPlus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50BC8125186C44E600F0CD4D /* CoreVideoPlus.h */; };
 		50BC814E186C455300F0CD4D /* NSError+CVPError.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC814B186C455300F0CD4D /* NSError+CVPError.m */; };
 		50BC8166186C47A900F0CD4D /* GLPPixelformat+CVPPixelformat.c in Sources */ = {isa = PBXBuildFile; fileRef = 50BC8165186C47A900F0CD4D /* GLPPixelformat+CVPPixelformat.c */; };
@@ -65,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BC8121186C44E600F0CD4D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
