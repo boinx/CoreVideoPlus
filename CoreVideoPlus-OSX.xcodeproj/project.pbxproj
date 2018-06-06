@@ -151,7 +151,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = McZonk;
+				ORGANIZATIONNAME = "Boinx Software Ltd.";
 			};
 			buildConfigurationList = 50BC8118186C44E600F0CD4D /* Build configuration list for PBXProject "CoreVideoPlus-OSX" */;
 			compatibilityVersion = "Xcode 3.2";
